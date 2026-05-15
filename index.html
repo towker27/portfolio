@@ -129,6 +129,13 @@ section{
   margin-bottom:15px;
 }
 
+/* PROJECT LINK */
+.project-link{
+  text-decoration:none;
+  color:white;
+  display:block;
+}
+
 /* CONTACT */
 .contact-container{
   background:#1e293b;
@@ -237,12 +244,16 @@ footer{
 
   <div class="grid">
 
-    <div class="card">
-      <i class="fas fa-utensils skill-icon"></i>
-      <h3>Mess Management System Website</h3>
-      <p>HTML & CSS based website</p>
-    </div>
+    <!-- PROJECT 1 -->
+    <a href="https://towker27.github.io/MessManagement/" target="_blank" class="project-link">
+      <div class="card">
+        <i class="fas fa-utensils skill-icon"></i>
+        <h3>Mess Management System Website</h3>
+        <p>HTML & CSS based website</p>
+      </div>
+    </a>
 
+    <!-- PROJECT 2 -->
     <div class="card">
       <i class="fas fa-shopping-cart skill-icon"></i>
       <h3>MMS App</h3>
@@ -274,9 +285,8 @@ footer{
 <script>
 const lines = [
     "Department of Software Engineering",
-    "level 2, term 1",
+    "Level 2, Term 1",
     "University of Frontier Technology, Bangladesh",
-    
 ];
 
 function typeText(id, text, delay){
